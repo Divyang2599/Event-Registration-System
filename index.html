@@ -57,7 +57,7 @@
 
     <script>
         document.getElementById('uploadForm').addEventListener('submit', async (e) => {
-            e.preventDefault();  // Stops page reload
+            e.preventDefault();  // Prevents page reload
 
             const file = document.getElementById('fileInput').files[0];
             if (!file) {
